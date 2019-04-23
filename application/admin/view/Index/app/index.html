@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>视频解析</title>
+    <link rel="stylesheet" href="layui/css/layui.css">
+    <style>
+
+        html,body{
+            width: 100%;
+            height: 100%;
+            margin:  0 auto;
+            padding: 0;
+        }
+        .upbox{
+            width: 100%;
+            height: 93%;
+            border-radius:10px 10px 10px 10px;
+        }
+        .footbox{
+            height: 7%;
+            width: 100%;
+            background: #0f9ae0;
+        }
+        .footbox_menu{
+            width: 33%;
+            height: 100%;
+            margin: 0 auto;
+            padding: 0;
+            text-align: center;
+            float: left;
+        }
+        .footbox_menu_box{
+            width: 28%;
+            height: 100%;
+            margin-left: 30%;
+            color: white;
+            font-size: 22px;
+            margin-top: 10px;
+            }
+        .footbox_menu_box img,a{
+            width: 53%;
+            height: 48%;
+            color: white;
+            font-size: 22px;
+        }
+    </style>
+
+</head>
+<body>
+        <div class="upbox">
+            <iframe style="width: 100%;height: 100%; border: none;" src="fr01.html" name="fr1">
+
+            </iframe>
+        </div>
+        <div class="footbox">
+            <div class="footbox_menu">
+                <div class="footbox_menu_box">
+                    <a target="fr1"><img src="assets/img/home.png"><br><strong> 首 页</a></strong>
+                </div>
+            </div>
+            <div class="footbox_menu">
+                <div class="footbox_menu_box">
+                    <img src="assets/img/msg.png"><br><strong>&nbsp;&nbsp;消 息&nbsp;</strong><span class="layui-badge-dot"></span>
+                </div>
+            </div>
+            <div class="footbox_menu">
+                <div class="footbox_menu_box">
+                    <img src="assets/img/me.png"><br><strong>个人中心</strong>
+                </div>
+            </div>
+        </div>
+
+</body>
+</html>
