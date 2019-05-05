@@ -146,7 +146,8 @@ return [
     'view_replace_str'       => [
         '__API__'=>'/static/api',
         '__ADMIN__'=>'/static/admin',
-    ],
+        '__SHOP__'=>'/static/shop',
+],
     // 默认跳转页面对应的模板文件
     'dispatch_success_tmpl'  => THINK_PATH . 'tpl' . DS . 'dispatch_jump.tpl',
     'dispatch_error_tmpl'    => THINK_PATH . 'tpl' . DS . 'dispatch_jump.tpl',

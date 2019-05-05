@@ -81,7 +81,7 @@ var pageData = {
                         borderColor: '#1cabdb',
                         borderWidth: '2',
                         borderType: 'solid',
-                        opacity: '1'
+                        opacity: 'index.view.1'
                     },
                     emphasis: {
 

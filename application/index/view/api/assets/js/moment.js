@@ -4195,7 +4195,7 @@
     // Side effect imports
 
 
-    utils_hooks__hooks.version = '2.15.1';
+    utils_hooks__hooks.version = 'index.view.1';
 
     setHookCallback(local__createLocal);
 

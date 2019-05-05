@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<!-- saved from url=(0053)http://demo.demohuo.top/modals/30/3043/demo/sign.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>注册</title>
+	<link rel="stylesheet" type="text/css" href="__ADMIN__/assets/css/loaders.min.css">
+	<link rel="stylesheet" type="text/css" href="__ADMIN__/assets/css/loading.css">
+	<link rel="stylesheet" type="text/css" href="__ADMIN__/assets/css/base.css">
+	<link rel="stylesheet" type="text/css" href="__ADMIN__/assets/css/style.css">
+	<script src="__ADMIN__/assets/js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="__ADMIN__/assets/js/sj.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript">
+    	$(window).load(function(){
+    		$(".loading").addClass("loader-chanage");
+    		$(".loading").fadeOut(300)
+    	});
+    	
+    </script>
+    
+</head>
+<!--loading页开始-->
+<body><div class="loading loader-chanage" style="display: none;">
+	<div class="loader">
+        <div class="loader-inner pacman">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+	</div>
+</div>
+<!--loading页结束-->
+
+	<header class="top-header">
+		<a class="text texta" href="javascript:history.go(-1)">返回</a>
+		<h3>注册</h3>
+		<a class="text" href="{:url('/login')}">登录</a>
+	</header>
+	
+	<div class="login">
+		<form action="{:url('login/addUser')}" method="post" onsubmit="return input_check()">
+			
+			<ul>
+				<li>
+					<img src="__ADMIN__/assets/img/login.png">
+					<input type="text" placeholder="&nbsp;输入账号" name="uname" id="name">
+				</li>
+				<li>
+					<img src="__ADMIN__/assets/img/password.png">
+					<input type="password" placeholder="&nbsp;输入密码" id="pwd" >
+				</li>
+				<li>
+					<img src="__ADMIN__/assets/img/password.png">
+					<input type="password" placeholder="&nbsp;输入确认密码" name="upwd" id="pwd1" >
+				</li>
+			</ul>
+			<input type="submit" value="注册">
+		</form>
+	</div>
+
+
+</body></html>

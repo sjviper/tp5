@@ -3507,7 +3507,8 @@ body .layui-table-tips .layui-layer-content {
     *display: inline;
     *zoom: 1;
     vertical-align: middle;
-    line-height: 60px
+    line-height: 60px;
+
 }
 
 .layui-nav .layui-nav-item a {
